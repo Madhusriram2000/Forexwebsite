@@ -318,14 +318,402 @@ height:21px;width:19px;
 }
 .brkrow{
   padding-top:2%;
-  margin-left:4%;
+  margin-left:5%;
 }
 .brkrow p{
   padding-top:2%;
 }
 .openacc{
-  background-color:#C40083;
-  color:aliceblue;
-  padding-left:10%;
-  padding-right:10%;
+  background-color:#C40083!important;
+  color:aliceblue!important;
+  padding-left:10%!important;
+  padding-right:10%!important;
 }
+.calculaterow{
+  color:aliceblue!important;
+  margin-top:10%!important;
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+  padding-bottom:3%;
+}
+.calculaterow h3{
+  margin-top:1%;
+  margin-left:1.5%;
+}
+.imgsrow,.incomerow{
+  margin-left:5%!important;
+}
+.diiv{
+  margin-top:4%!important;
+  margin-left:8%;
+  background-color: #ae4d8e;
+}
+.diivtwo{
+  margin-top:4%!important;
+  margin-left:8%;
+  background-color: #ae4d8e;
+}
+.diivthree{
+  margin-top:4%!important;
+  margin-left:8%;
+  background-color: #ae4d8e;
+}
+.diivfour{
+  margin-top:6%!important;
+  margin-left:8%;
+}
+.boug{
+  font-size:small!important;
+}
+.google{
+  margin-top:-5%;
+  background-color: aliceblue;
+}
+.google p{ 
+  color: black;
+  margin-left:14%;
+  margin-top:-14%;
+  padding:2%;
+}
+.google p i{
+  margin-left:25%;
+}
+.google2{
+  margin-top:-5%;
+  background-color: aliceblue;
+}
+.google2 p{ 
+  color: black;
+  margin-left:14%;
+  margin-top:-7%;
+  padding:2%;
+}
+.google2 p i{
+  margin-left:25%;
+}
+.opacc{
+  border:1px solid snow!important;
+  background-color:#C40083!important;
+  color:aliceblue!important;
+  padding-left:10%!important;
+  padding-right:10%!important;
+}
+/* Aboutpage */
+.aboutpage h1
+{
+  color: #ae4d8e;
+}
+.abtrow{
+  margin-top:5%;
+  margin-left:5%;
+}
+.abtrow img{
+  margin-left:4%;
+}
+.bgclrow{
+  height:250px;
+  margin-top:5%;
+  background-image:url(/Assets/Aboutpage/abtimg1.png);
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+}
+.threwrds{
+  padding-top:4%!important;
+  margin-left:15%!important;
+} 
+.bgclrow h1{
+  color: aliceblue;
+}
+.bgclrow p{
+  color: aliceblue;
+}
+.visrow{
+  margin-left:5%;
+}
+.visrow img{
+  margin-left:8%;
+}
+.visrow h1{
+  margin-left:5%;
+}
+.visrow p{
+  margin-left:-6%;
+}
+.brk h5{
+color:#6ffffd ;
+}
+.adm h5{
+color:blue;
+}
+.lin h5{
+  color:orange;
+}
+.brkh{
+  margin-top:-13%;
+  margin-left:1%;
+}
+.admh{
+  margin-top:-7%;
+  margin-left:43%; 
+}
+.admp{
+  margin-left:40%;
+}
+.linh{
+  margin-top:-7.5%;
+  margin-left:86%;
+}
+.linp{
+  margin-left:83%;
+}
+.wallt h5{
+  color: purple;
+}
+.onlwal h5{
+  color: hotpink;
+}
+.wallth{
+  margin-top:2.5%;
+  margin-left:22%;
+}
+.walltp{
+  margin-left:20%;
+}
+.onlwalh{
+  margin-top:-7.5%;
+  margin-left:62%;
+}
+.onlwalp{
+  margin-left:60%;
+}
+.maprow{
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+}
+.maprow img{
+  margin-top:5%;
+  margin-left:5%;
+}
+.maprow h1,.maprow p{
+  color: aliceblue; 
+  margin-top:5%
+}
+.ddx{
+  padding-top:8%;
+}
+.pentaimgrow{
+  margin-top:5%;
+  display: inline;
+}
+.firstpent{
+  position:relative;
+  top:5%;
+  left:14%;
+}
+.firstpenthum{
+  position: absolute;
+  left:41%;
+  top:-7%
+}
+.firstcur{
+  position: absolute;
+  left:41%;
+  top:-17%
+}
+.firstpentpara{
+  color: aliceblue;
+  font-size:small;
+  position: absolute;
+  top:46%;
+  left:18%;
+}
+.secondpent{
+  position:relative;
+  top:5%;
+}
+.seccur{
+  position: absolute;
+  left:41%;
+  top:-17%
+}
+.secondpenthum{
+  position: absolute;
+  left:41%;
+  top:-7%
+}
+.secondpentpara{
+  color: aliceblue;
+  font-size:small;
+  position: absolute;
+  top:46%;
+  left:18%;
+}
+.thirdcur{
+  position: absolute;
+  left:41%;
+  top:-17%
+}
+.thirdpent{
+  position: relative;
+  left:-15%;
+}
+.thirdpenthum{
+  position: absolute;
+  left:41%;
+  top:-7%
+}
+.thirdpentpara{
+  color: aliceblue;
+  font-size:small;
+  position: absolute;
+  top:46%;
+  left:22%;
+}
+.threecardrow h5,.threecardrow p{
+  color:aliceblue;
+}
+.firstpurbx{
+  background-image:url(/Assets/Tradingpage/tag.png);
+  height:420px;
+}
+.firstpurbx{
+  position: relative;
+}
+.firstpurbx .oneimg{
+  position: absolute;
+  top:-11%;
+  left:43%;
+}
+.firstpurbx .firpurbxh{
+  position: absolute;
+  top:15%;left:45%;
+}
+.firstpurbx .firpurbxp{
+  position: absolute;
+  top:30%;left:40%;
+}
+.accbt{
+  background-color:purple!important;color: aliceblue!important;
+}
+.secpurbx{
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+  height:420px;
+}
+.secpurbx{
+  position: relative;
+}
+.secpurbx .twoimg{
+position: absolute;
+top:-11%;
+left:43%;
+}
+.secpurbx .secpurbxh{
+  position: absolute;
+  top:15%;left:43%;
+}
+.secpurbx .secpurbxp{
+  position: absolute;
+  top:30%;left:40%;
+}
+.thirdpurbx{
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+  height:420px;
+  position: relative;
+}
+.thirdpurbx .thrimg{
+  position: absolute;
+top:-11%;
+left:43%;
+}
+.thirdpurbx .thipurbxh{
+  position: absolute;
+  top:15%;left:47%;
+}
+.thirdpurbx .thipurbxp{
+  position: absolute;
+  top:30%;left:40%;
+}
+.fourbxx{
+  margin-left:5%;
+  margin-top:5%;
+}
+.bx1{
+  padding:5%;
+  height:8%;
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+}
+.dotimg{
+  padding-top:5%;
+}
+.tickrow{
+  margin-top:5%;
+}
+.market{
+  height:10%;
+  background-image:url(/Assets/Tradingpage/tradingimg4.png)!important;
+  background:linear-gradient(94deg, rgba(126,38,97,1) 0%, rgba(196,0,131,1) 54%, rgba(126,38,97,1) 100%);
+}
+
+@media screen and (max-width:540px){
+  .visrow p{
+    margin-left:1%;
+  }
+  .brkh{
+    font-size:smaller;
+    margin-top:-15%;
+  }
+  .brkp,.admp,.linp,.walltp,.onlwalp{
+    font-size:6px;
+  }
+  .admh{
+    font-size:smaller;
+    margin-top:-16.5%!important;
+  }
+  .linh{
+    font-size:smaller;
+    margin-top:-16.5%!important;
+  }
+  .wallth{
+    font-size:smaller;
+    margin-top:-8.5%!important;
+  }
+  .onlwalh{
+    font-size:smaller;
+    margin-top:-16.5%!important;
+  }
+  .ourmissio{
+    display:flex;
+    flex-direction:column-reverse;
+  }
+  .firstpent{
+    margin-left:-15%;
+  }
+  .secondpent{
+    margin-top:50%;
+  }
+  .firstpentpara,.secondpentpara,.thirdpentpara{
+    margin-left:-5%;
+  }
+  .thirdpent{
+    margin-left:15%;
+  }
+  .wehave{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .unlockk{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .unlockk img{
+    margin-left:2%;
+  }
+  .brkrow img{
+    margin-top:2%;
+  }
+  .diiv,.diivtwo,.diivthree{
+    width:50%!important;
+  }
+  .secpurbx,.thirdpurbx{
+    margin-top:15%;
+  }
+}
+
+
