@@ -220,10 +220,6 @@
   height: 500px;
 }
 
-.carousel-item {
-  border: 4px solid #C40083;
-}
-
 .review-head {
   font-weight: 600;
   color: #fff;
@@ -259,35 +255,6 @@
   margin-left: 10%;
   padding-bottom: 5%;
 } */
-
-.carousel-cont {
-  padding: 10% 10% 10% 10% !important;
-  max-width: 930px !important;
-}
-
-.carousel-cont-two {
-  max-width: 930px !important;
-}
-
-.carousel-head {
-  color: #fff;
-}
-
-.carousel-text {
-  color: #fff;
-}
-
-.carousel-control-prev-icon {
-  position: relative;
-  right: 90%;
-  color: #fff !important;
-}
-
-.carousel-control-next-icon {
-  position: relative;
-  left: 90%;
-  color: #fff !important;
-}
 
 .indi button {
   height: 20px;
@@ -1040,18 +1007,6 @@
   .bull-arrow {
     height: 0px;
     width: 0px;
-  }
-
-  .carousel-control-prev-icon {
-    position: relative;
-    right: 0%;
-    color: #fff !important;
-  }
-
-  .carousel-control-next-icon {
-    position: relative;
-    left: 0%;
-    color: #fff !important;
   }
 
   .whyusrow h1 {

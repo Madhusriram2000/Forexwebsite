@@ -1,0 +1,46 @@
+.carousel-item {
+    border: 4px solid #C40083;
+}
+
+.carousel-cont {
+    padding: 10% 10% 10% 10% !important;
+    max-width: 930px !important;
+}
+
+.carousel-cont-two {
+    max-width: 930px !important;
+}
+
+.carousel-head {
+    color: #fff;
+}
+
+.carousel-text {
+    color: #fff;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    right: 90%;
+    color: #fff !important;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    left: 90%;
+    color: #fff !important;
+}
+
+@media (max-width: 540px) {
+    .carousel-control-prev-icon {
+        position: relative;
+        right: 0%;
+        color: #fff !important;
+    }
+
+    .carousel-control-next-icon {
+        position: relative;
+        left: 0%;
+        color: #fff !important;
+    }
+}
