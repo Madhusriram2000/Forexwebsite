@@ -66,7 +66,28 @@
   background-color: #C40083;
   color: aliceblue;
 }
-
+#tiedup{
+  color:black;
+}
+.feelingrow{
+  background: linear-gradient(94deg, rgba(126, 38, 97, 1) 0%, rgba(196, 0, 131, 1) 54%, rgba(126, 38, 97, 1) 100%);
+}
+.lappp{
+  background-image:url("../PlatformPage/ptimg1.png");
+  background-size:cover;
+}
+.unsurehead h1{
+  font-size:55px;
+  margin-top:3.5%;
+color: aliceblue!important;
+}
+.unsurehead button{
+  font-size:22px;
+  margin-left:-28%;
+  border-radius:0;
+background-color: aliceblue;
+color: #C40083;
+}
 /* .imgg img {
   margin-top: 9%;
 } */
@@ -204,7 +225,6 @@
   padding-top: 4%;
   color: #C40083;
 }
-
 /* #firttt {
   margin-left: 2% !important;
 } */
@@ -218,6 +238,10 @@
   background-image: url("../Homepage/Group-347.png");
   background-size: 100%;
   height: 500px;
+}
+.hum{
+  margin-top:-13%;
+  margin-left:2%;
 }
 
 .review-head {
@@ -347,8 +371,10 @@
 }
 
 .lowrowone {
-  margin-left: 38%;
   margin-top: 2%;
+}
+.lowrowone h1{
+  text-align: center;
 }
 
 .imgtbt {
@@ -358,6 +384,10 @@
 .hsd {
   font-family: sans-serif;
   font-size: 25px;
+}
+.hsd p{
+  width:60%;
+  border:1px solid snow;
 }
 
 .onetradingrow {
@@ -379,21 +409,21 @@
   margin-left: -15%;
 }
 
-.unlockrow img {
+/* .unlockrow img {
   margin-left: 15%;
-}
+} */
 
 .marketrow {
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-.card {
-  margin-left: 8%;
+ /* .card {
+  margin-left:8%;
   width: 17rem;
-}
+} */
 
-.bts img {
+/*.bts img {
   width: 15rem;
   margin-left: 3.5%;
   margin-top: 2%;
@@ -401,9 +431,21 @@
 
 .bts .card-body {
   width: 17rem;
-}
+} */
+/* .bts .card-body{
+  width:19rem;
+} */
 
+.bts{
+  margin-left:10%;
+  width:18rem;
+}
+.bts img{
+  width:18rem; 
+}
 .bts p {
+  margin-left:-6%;
+  width:18rem; 
   background-color: gray;
 }
 
@@ -542,7 +584,9 @@
 .bgclrow {
   height: 250px;
   margin-top: 5%;
-  background-image: url(/Assets/Aboutpage/abtimg1.png);
+  background-image: url("../Aboutpage/abtimg1.png");
+  background-size:contain!important;
+  background-position:center!important;
   background: linear-gradient(94deg, rgba(126, 38, 97, 1) 0%, rgba(196, 0, 131, 1) 54%, rgba(126, 38, 97, 1) 100%);
 }
 
@@ -563,9 +607,9 @@
   margin-left: 5%;
 }
 
-.visrow img {
+/* .visrow img {
   margin-left: 8%;
-}
+} */
 
 .visrow h1 {
   margin-left: 5%;
@@ -735,6 +779,9 @@
   top: 46%;
   left: 22%;
 }
+.threecardrow{
+  padding-top:2%;
+}
 
 .threecardrow h5,
 .threecardrow p {
@@ -742,8 +789,11 @@
 }
 
 .firstpurbx {
-  background-image: url(/Assets/Tradingpage/tag.png);
-  height: 420px;
+  background-image: url("../Tradingpage/tag.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height:500px;
 }
 
 .firstpurbx {
@@ -764,18 +814,21 @@
 
 .firstpurbx .firpurbxp {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top:27%;
+  left:37%;
 }
 
 .accbt {
+  margin-top:4%;
   background-color: purple !important;
   color: aliceblue !important;
 }
 
 .secpurbx {
+  margin-left:14%;
+  width:220px;
   background: linear-gradient(94deg, rgba(126, 38, 97, 1) 0%, rgba(196, 0, 131, 1) 54%, rgba(126, 38, 97, 1) 100%);
-  height: 420px;
+  height:500px;
 }
 
 .secpurbx {
@@ -785,43 +838,44 @@
 .secpurbx .twoimg {
   position: absolute;
   top: -11%;
-  left: 43%;
+  left:33%;
 }
 
 .secpurbx .secpurbxh {
   position: absolute;
-  top: 15%;
-  left: 43%;
+  top:16%;
+  left: 33%;
 }
 
 .secpurbx .secpurbxp {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top:27%;
+  left:27%;
 }
 
 .thirdpurbx {
   background: linear-gradient(94deg, rgba(126, 38, 97, 1) 0%, rgba(196, 0, 131, 1) 54%, rgba(126, 38, 97, 1) 100%);
-  height: 420px;
+  height:500px;
+  width:220px;
   position: relative;
 }
 
 .thirdpurbx .thrimg {
   position: absolute;
   top: -11%;
-  left: 43%;
+  left:33%;
 }
 
 .thirdpurbx .thipurbxh {
   position: absolute;
-  top: 15%;
-  left: 47%;
+  top:18%;
+  left:43%;
 }
 
 .thirdpurbx .thipurbxp {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top:27%;
+  left:27%;
 }
 
 .fourbxx {
@@ -844,12 +898,17 @@
 }
 
 .market {
-  height: 10%;
-  background-image: url(/Assets/Tradingpage/tradingimg4.png) !important;
+  height:300px;
+  background-image: url("../Tradingpage/tradingimg4.png")!important;
+  background-position:center!important;
+  background-size:contain!important;
   background: linear-gradient(94deg, rgba(126, 38, 97, 1) 0%, rgba(196, 0, 131, 1) 54%, rgba(126, 38, 97, 1) 100%);
 }
 
 @media screen and (max-width:540px) {
+  .hum{
+    width:0%;height:0%;
+  }
   .visrow p {
     margin-left: 1%;
   }
@@ -901,12 +960,24 @@
   }
 
   .firstpentpara,
-  .secondpentpara,
-  .thirdpentpara {
+  .secondpentpara{
     margin-left: -5%;
+  }
+  .thirdpentpara{
+margin-left:-9%;
+  }
+  .secondpent{
+    margin-top:20%!important;
+  }
+  .thirdcur,.seccur,.firstcur{
+    margin-left:-3%!important;
+  }
+  .thirdpenthum,.secondpenthum,.firstpenthum{
+    margin-left:-4%!important;
   }
 
   .thirdpent {
+    margin-top:20%!important;
     margin-left: 15%;
   }
 
@@ -933,10 +1004,22 @@
   .diivthree {
     width: 50% !important;
   }
+  .oneimg{
+    margin-left:-3%;
+  }
+  .firpurbxh{
+    margin-left:-2%;
+  }
+  .firpurbxp{
+    margin-left:-4%;
+  }
 
   .secpurbx,
   .thirdpurbx {
-    margin-top: 15%;
+    margin-top:18%;
+  }
+  .secpurbx,.thirdpurbx{
+    margin-left:20%;
   }
 }
 
@@ -1013,5 +1096,21 @@
     margin-top: 0%;
     margin-left: 0%;
     text-align: center;
+  }
+  .clkh{
+    margin-left:1%!important;
+  }
+  .ccmm{
+    padding-top:2%!important;
+    padding-bottom:2%!important;
+  }
+  .analy p{
+    margin-left:2%!important;
+  }
+  .dot-img{
+    margin-top:-5%;
+    margin-left:45%;
+    transform:rotate(90deg);
+    width:8%;height:3%;
   }
 }
