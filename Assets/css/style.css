@@ -512,12 +512,6 @@
 
 .calculaterow h3 {
   margin-top: 1%;
-  margin-left: 1.5%;
-}
-
-.imgsrow,
-.incomerow {
-  margin-left: 5% !important;
 }
 
 .diiv {
@@ -1210,5 +1204,5 @@
   height:310px;
 }
 .grp-img{
-  height:180px;
+  height:190px;
 }
