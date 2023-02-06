@@ -31,6 +31,24 @@
     color: #fff !important;
 }
 
+.caro .carousel-indicators {
+    position: absolute;
+    bottom: -20%;
+}
+
+.caro .carousel-indicators .active {
+    height: 18px !important;
+    width: 18px !important;
+    background-color: #C40083 !important;
+}
+
+.caro .carousel-indicators .carousel-indicators-round {
+    height: 18px !important;
+    width: 18px !important;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 @media (max-width: 540px) {
     .carousel-control-prev-icon {
         position: relative;
