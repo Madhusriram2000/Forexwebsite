@@ -406,7 +406,7 @@
 }
 
 .brokerrow img {
-  margin-left: 5%;
+ 
   padding-top: 2%;
 }
 
@@ -434,7 +434,6 @@
 
 .onetradingrow {
   padding-top: 5%;
-  margin-left: 3%;
 }
 
 .unlockrow {
@@ -664,12 +663,8 @@
 
 .abtrow {
   margin-top: 5%;
-  margin-left: 5%;
 }
 
-.abtrow img {
-  margin-left: 4%;
-}
 
 .bgclrow {
   height: 250px;
@@ -693,9 +688,7 @@
   color: aliceblue;
 }
 
-.visrow {
-  margin-left: 5%;
-}
+
 
 /* .visrow img {
   margin-left: 8%;
@@ -776,7 +769,6 @@
 
 .maprow img {
   margin-top: 5%;
-  margin-left: 5%;
 }
 
 .maprow h1,
@@ -1052,6 +1044,9 @@
   .firstpentpara,
   .secondpentpara {
     margin-left: -5%;
+  }
+  .cntss{
+    margin-left:1%;
   }
 
   .secondpent {
