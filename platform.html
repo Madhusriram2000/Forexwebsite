@@ -17,7 +17,8 @@
 
 <body>
     <!-- Header -->
-    <header class=""></header>
+    <header></header>
+    <div class="spacing"></div>
     <div class="platformpage responsive">
         <div class="brokerrow mt-5">
             <div class="row">
@@ -308,7 +309,7 @@
             </div> -->
 
 
-            
+
             <div id="carouselExampleIndicators" class="carousel slide">
                 <!-- <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -449,6 +450,15 @@
     <!--footer-->
     <footer class=""></footer>
     <script src="./Assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $("#pla").addClass("nav-link-new");
+            }, 500);
+        })
+    </script>
 </body>
 
 </html>

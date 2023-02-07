@@ -1,5 +1,6 @@
 .navbar-bg {
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .navbar-bg2 {
@@ -29,12 +30,8 @@
 }
 
 .nav-link-new {
-  color: blueviolet !important;
+  color: #C40083 !important;
   font-weight: 15px;
-}
-
-.nav-link-new:hover {
-  color: blueviolet !important;
 }
 
 #navsa img {
@@ -44,6 +41,10 @@
 .navss {
   margin-left: 56%;
   font-size: 17px;
+}
+
+.spacing {
+  margin-top: 7%;
 }
 
 .bottm ul {
