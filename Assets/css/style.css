@@ -283,7 +283,28 @@
   background-size: 100%;
   height: 500px;
 }
-
+.background-arrow{
+  height:380px;
+  background-image:url("../Homepage/fx-bg.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+.background-arrow h1{
+  color: #fff;
+  font-size:55px;
+}
+.background-arrow button{
+  padding-left:12px;
+  font-size:25px;
+  padding-right:12px;
+  border:0px;
+  background-color: #fff;
+  color: #ae4d8e;
+}
+.ccenter{
+  margin-top: 80px;
+  margin-left: 93px;
+}
 .hum {
   position: relative;
   left: -12%;
@@ -1036,6 +1057,10 @@
   .onlwalp {
     font-size: 6px;
   }
+  .luffy{
+    margin-top:20px;
+
+  }
 
   .admh {
     font-size: smaller;
@@ -1060,6 +1085,22 @@
   .ourmissio {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .background-arrow{
+    height:100px;
+  }
+  .background-arrow h1{
+    font-size:15px;
+    color: #fff;
+  }
+  .background-arrow button{
+    font-size:8px;
+    color: #ae4d8e;
+    background-color: #fff;
+  }
+  .ccenter{
+    margin-left:10px;
+    margin-top:10px;
   }
   .maprow img{
     height:160px;
