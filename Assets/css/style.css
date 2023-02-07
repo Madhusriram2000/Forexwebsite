@@ -283,28 +283,33 @@
   background-size: 100%;
   height: 500px;
 }
-.background-arrow{
-  height:380px;
-  background-image:url("../Homepage/fx-bg.png");
-  background-size:100%;
+
+.background-arrow {
+  height: 380px;
+  background-image: url("../Homepage/fx-bg.png");
+  background-size: 100%;
   background-repeat: no-repeat;
 }
-.background-arrow h1{
+
+.background-arrow h1 {
   color: #fff;
-  font-size:55px;
+  font-size: 55px;
 }
-.background-arrow button{
-  padding-left:12px;
-  font-size:25px;
-  padding-right:12px;
-  border:0px;
+
+.background-arrow button {
+  padding-left: 12px;
+  font-size: 25px;
+  padding-right: 12px;
+  border: 0px;
   background-color: #fff;
   color: #ae4d8e;
 }
-.ccenter{
+
+.ccenter {
   margin-top: 80px;
   margin-left: 93px;
 }
+
 .hum {
   position: relative;
   left: -12%;
@@ -423,12 +428,7 @@
   color: #C40083;
 }
 
-.brokerrow {
-  margin-left: 3%;
-}
-
 .brokerrow img {
- 
   padding-top: 2%;
 }
 
@@ -729,12 +729,13 @@
 }
 
 .adm h5 {
-  color:#842dec;
+  color: #842dec;
 }
 
 .lin h5 {
-  color:#ff445b;
+  color: #ff445b;
 }
+
 /* .brk{
   position: absolute; 
   bottom: -302%;
@@ -760,7 +761,7 @@
 .admh {
   margin-top: -7%;
   margin-left: 43%;
-} 
+}
 
 .admp {
   margin-left: 40%;
@@ -783,6 +784,7 @@
 .onlwal h5 {
   color: #ff44a0;
 }
+
 /* 
 .wallt{
   position: absolute;
@@ -1057,8 +1059,9 @@
   .onlwalp {
     font-size: 6px;
   }
-  .luffy{
-    margin-top:20px;
+
+  .luffy {
+    margin-top: 20px;
 
   }
 
@@ -1086,25 +1089,30 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .background-arrow{
-    height:100px;
+
+  .background-arrow {
+    height: 100px;
   }
-  .background-arrow h1{
-    font-size:15px;
+
+  .background-arrow h1 {
+    font-size: 15px;
     color: #fff;
   }
-  .background-arrow button{
-    font-size:8px;
+
+  .background-arrow button {
+    font-size: 8px;
     color: #ae4d8e;
     background-color: #fff;
   }
-  .ccenter{
-    margin-left:10px;
-    margin-top:10px;
+
+  .ccenter {
+    margin-left: 10px;
+    margin-top: 10px;
   }
-  .maprow img{
-    height:160px;
-    width:260px;
+
+  .maprow img {
+    height: 160px;
+    width: 260px;
   }
 
   .firstpent {
@@ -1119,8 +1127,9 @@
   .secondpentpara {
     margin-left: -5%;
   }
-  .cntss{
-    margin-left:1%;
+
+  .cntss {
+    margin-left: 1%;
   }
 
   .secondpent {
@@ -1188,13 +1197,14 @@
   /* .bts {
     margin-left: 8%;
   } */
-  .bts{
-    width:15rem;
+  .bts {
+    width: 15rem;
   }
-  .bts img{
-    width:15rem;
+
+  .bts img {
+    width: 15rem;
   }
-  
+
 
   .www2 {
     margin-top: 5%;
