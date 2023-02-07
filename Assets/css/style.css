@@ -480,11 +480,11 @@
 
 .bts {
   /* margin-left: 15%; */
-  width: 20rem;
+  width: 23rem;
 }
 
 .bts img {
-  width: 20rem;
+  width: 23rem;
 }
 
 .bts .card-body {
@@ -704,30 +704,47 @@
 }
 
 .brk h5 {
-  color: #6ffffd;
+  color: #44c4ff;
 }
 
 .adm h5 {
-  color: blue;
+  color:#842dec;
 }
 
 .lin h5 {
-  color: orange;
+  color:#ff445b;
 }
+/* .brk{
+  position: absolute; 
+  bottom: -302%;
+  left:8.5%;
+} */
 
 .brkh {
   margin-top: -13%;
   margin-left: 1%;
 }
 
+/* .adm{
+  position: absolute; 
+  bottom: -303%; 
+  left:43.8%;
+}
+.lin{
+  position: absolute;
+  left:79.5%;
+  bottom: -303%;
+} */
+
 .admh {
   margin-top: -7%;
   margin-left: 43%;
-}
+} 
 
 .admp {
   margin-left: 40%;
 }
+
 
 .linh {
   margin-top: -7.5%;
@@ -739,12 +756,23 @@
 }
 
 .wallt h5 {
-  color: purple;
+  color: #5044ff;
 }
 
 .onlwal h5 {
-  color: hotpink;
+  color: #ff44a0;
 }
+/* 
+.wallt{
+  position: absolute;
+  left: 26%;
+  top: 412%;
+}
+.onlwal{
+  position: absolute;
+  left: 61%;
+  bottom: -328%;
+} */
 
 .wallth {
   margin-top: 2.5%;
@@ -998,7 +1026,7 @@
 
   .brkh {
     font-size: smaller;
-    margin-top: -15%;
+    margin-top: -15.5%;
   }
 
   .brkp,
@@ -1011,27 +1039,31 @@
 
   .admh {
     font-size: smaller;
-    margin-top: -16.5% !important;
+    margin-top: -17.5% !important;
   }
 
   .linh {
     font-size: smaller;
-    margin-top: -16.5% !important;
+    margin-top: -18% !important;
   }
 
   .wallth {
     font-size: smaller;
-    margin-top: -8.5% !important;
+    margin-top: -10.5% !important;
   }
 
   .onlwalh {
     font-size: smaller;
-    margin-top: -16.5% !important;
+    margin-top: -17% !important;
   }
 
   .ourmissio {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .maprow img{
+    height:160px;
+    width:260px;
   }
 
   .firstpent {
@@ -1112,9 +1144,16 @@
     margin-top: 18%;
   }
 
-  .bts {
+  /* .bts {
     margin-left: 8%;
+  } */
+  .bts{
+    width:15rem;
   }
+  .bts img{
+    width:15rem;
+  }
+  
 
   .www2 {
     margin-top: 5%;
